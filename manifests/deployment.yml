@@ -1,0 +1,19 @@
+apiVersion : apps/v1
+kind: Deployment
+metadata:
+  name: madhuojhaaksdeployment 
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: madhuojhaaksdeployment
+  template:
+    metadata:
+      labels:
+        app: madhuojhaaksdeployment 
+    spec:
+      containers:
+        - name: madhuojhaaksdeployment 
+          image: msdeployment.azurecr.io/madhuojhaaksdeployment
+          ports:
+          - containerPort: 3000
