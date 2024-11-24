@@ -1,0 +1,53 @@
+
+de.js
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+
+# Logs
+logs
+*.log
+*.log.*
+pids
+*.pid
+*.seed
+*.pid.lock
+
+# Runtime
+*.out
+*.pid
+*.gz
+
+# OS
+.DS_Store
+Thumbs.db
+ehthumbs.db
+*.swp
+*~
+
+# IDEs/Editors
+.idea/
+.vscode/
+*.iml
+
+# Environment Variables
+.env
+.env.local
+.env.*.local
+
+# Build artifacts
+dist/
+build/
+coverage/
+.cache/
+public/
+
+# Docker
+docker-compose.override.yml
+docker-compose.override.yaml
+.dockerignore
+**/Dockerfile
+.docker
+
